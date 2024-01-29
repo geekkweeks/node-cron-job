@@ -1,0 +1,25 @@
+{
+  "name": "jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js localhost 8080"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "csv": "^6.3.6",
+    "csv-parse": "^5.5.3",
+    "dateformat": "^5.0.3",
+    "node-cron": "^3.0.3",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.8.1"
+  }
+}

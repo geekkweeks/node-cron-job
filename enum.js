@@ -1,0 +1,8 @@
+export const FileStatus = {
+  NEW: "NEW",
+  PROCESSING: "PROCESSING",
+  FINISHED: "FINISHED",
+  ARCHIED: "ARCHIED",
+  DELETED: "DELETED",
+  FAILED: "FAILED",
+};
